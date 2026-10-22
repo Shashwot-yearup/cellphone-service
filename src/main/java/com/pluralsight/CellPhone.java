@@ -56,6 +56,17 @@ public class CellPhone {
         return model;
     }
 
+    @Override
+    public String toString() {
+        return "CellPhone{" +
+                "serialNumber = " + serialNumber +
+                ", model = '" + model + '\'' +
+                ", carrier = '" + carrier + '\'' +
+                ", phoneNumber = '" + phoneNumber + '\'' +
+                ", owner = '" + owner + '\'' +
+                '}';
+    }
+
     public void setModel(String model) {
         this.model = model;
     }
