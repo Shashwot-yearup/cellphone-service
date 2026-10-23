@@ -24,6 +24,11 @@ public class CellPhone {
         System.out.println(owner + " s.phone is calling " + phoneNumber);
     }
 
+    // created a another dial method @@(string overload)
+    public void dial(CellPhone somePhone) {
+        System.out.println(owner + " s.phone is calling " + somePhone.getPhoneNumber());
+        //created a
+    }
     // the getter and setter
     public int getSerialNumber() {
         return serialNumber;
