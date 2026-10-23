@@ -31,7 +31,7 @@ public class CellPhoneApplication {
         display(cellphone2);
 
         //dails the phone.
-        newPhone.dial("855-555-2222");
+        cellphone1.dial("855-555-2222");
 
         //first number to call new number
         cellphone1.dial(cellphone2.getPhoneNumber());
