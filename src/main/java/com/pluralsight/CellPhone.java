@@ -20,7 +20,7 @@ public class CellPhone {
     }
 
     // created a dail method.
-    public void dail(String phoneNumber){
+    public void dial(String phoneNumber){
         System.out.println(owner + " s.phone is calling " + phoneNumber);
     }
 
@@ -61,6 +61,8 @@ public class CellPhone {
         return model;
     }
 
+
+    //method to sout the answers.
     @Override
     public String toString() {
         return "CellPhone{" +
