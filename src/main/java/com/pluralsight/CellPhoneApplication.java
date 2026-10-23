@@ -6,7 +6,6 @@ public class CellPhoneApplication {
 
     public static void main(String[] args) {
 
-        CellPhone newPhone = new CellPhone();
         CellPhone cellphone1 = new CellPhone();  // Create the first CellPhone object
         CellPhone cellphone2  = new CellPhone();  // Create the second CellPhone object
 
