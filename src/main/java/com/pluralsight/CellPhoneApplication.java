@@ -17,11 +17,13 @@ public class CellPhoneApplication {
         newPhone.setOwner(askQuestion(scanner,"Who is the owner of the phone?"));
 
         System.out.println(newPhone);
+
+        newPhone.dail("855-555-2222");
     }
 
     public  static String askQuestion(Scanner scanner, String question ){
 
         System.out.println(question + " ");
-        return  scanner.nextLine().trim();
+        return scanner.nextLine().trim();
     }
 }

@@ -19,6 +19,11 @@ public class CellPhone {
         this.owner = " ";
     }
 
+    // created a dail method.
+    public void dail(String phoneNumber){
+        System.out.println(owner + " s.phone is calling " + phoneNumber);
+    }
+
     // the getter and setter
     public int getSerialNumber() {
         return serialNumber;
